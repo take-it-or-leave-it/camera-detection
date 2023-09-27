@@ -1,0 +1,13 @@
+train: E:\hyundai_esw\code\yolov5-master\data\vehicle\train
+val: E:\hyundai_esw\code\yolov5-master\data\vehicle\valid
+# test: ../test/images
+
+nc: 2
+names: ['motorbike', 'vehicle']
+
+roboflow:
+  workspace: ac3100
+  project: vehicle-detection-lqxhk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ac3100/vehicle-detection-lqxhk/dataset/1
